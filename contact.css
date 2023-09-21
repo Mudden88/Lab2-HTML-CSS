@@ -1,0 +1,21 @@
+@import url(about.css);
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#fname {
+  margin-left: 10px;
+}
+
+#mail {
+  margin-left: 28px;
+}
+
+@media (max-width: 600px) {
+  #mail {
+    margin-left: 23px;
+  }
+}

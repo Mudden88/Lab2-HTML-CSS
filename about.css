@@ -1,0 +1,29 @@
+@import url(style.css);
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr 0.5fr 1fr;
+  grid-template-rows: 4em 1fr auto;
+  row-gap: 0.2em;
+  height: 100vh;
+}
+
+#maincontent {
+  font-family: Heebo, Arial, Helvetica, sans-serif;
+  background-color: #efefd0;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  grid-area: main;
+  height: auto;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "main"
+    "main";
+  width: 100vw;
+  height: auto;
+}
